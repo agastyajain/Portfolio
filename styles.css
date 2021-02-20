@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    cursor: url(custom.svg);
+}
+
+table td{
+    border: 2px solid darkgreen;
+}
+
+table{
+    width: 100%;
+    height: 80px;
+    color: white;
+    background-color: green;
+    text-align:center;
+}
+
+#header a:hover{
+   color:#B5E550;
+   cursor: pointer;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#header a:active{
+    color: yellow;
+}
+
+#tb{
+    width: 25%;
+}
+
+.active a{
+    color: #ECECA3;
+    text-decoration: underline;
+}
+
+.logo{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.img_1{
+    border-radius: 15%;
+}
+
+.logo .content{
+    float: right;
+    margin-right: 200px;
+    margin-top: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: darkgreen;
+}
+
+.description{
+    float: right;
+    margin-left: 550px;
+    margin-right: 30px;
+    margin-top:-230px;
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+
+.start{
+    background-color: green;
+    color: white;
+    border: 2px solid darkgreen;
+    width: 300px;
+    height: 80px;
+    border-radius: 100px;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: right;
+    margin-right: 280px;
+    margin-top: -60px;
+    outline: none;
+}
+
+.start:hover{
+    cursor: pointer;
+    background-color: white;
+    color: green;
+    outline: none;
+}
+
+#trending{
+    width: 100%;
+    height: 500px;
+    background-image: url("game.png");
+    margin-top: 50px;
+}
+
+.heading{
+    color: #B5E550;
+    text-align: center;
+    text-decoration:underline;
+    font-size: 36px;
+}
+
+.game1{
+    background-image: url("cars.png");
+    width: 400px;
+    height: 400px;
+    background-size:400px 400px;
+    margin-left: 5px;
+    margin-top: 30px;
+    border: 5px solid #B5E550;
+}
+
+.text1{
+    color: darkgreen;
+    font-size: 36px;
+    text-align: center;
+}
+
+.game2{
+    background-image: url("shooting.png");
+    width: 400px;
+    height: 400px;
+    background-size:400px 400px;
+    border: 5px solid #B5E550;
+    margin-left: 425px;
+    margin-right: auto;
+    margin-top: -410px;
+}
+
+.text2{
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}
+.game3{
+    background-image: url("birds.png");
+    width: 400px;
+    height: 400px;
+    background-size:400px 400px;
+    border: 5px solid #B5E550;
+    float: right;
+    margin-top: -410px;
+    margin-right: 5px;
+}
+
+.game4{
+    background-image: url("trex.png");
+    width: 400px;
+    height: 400px;
+    background-size:400px 400px;
+    border: 5px solid #B5E550;
+    float: right;
+    margin-top: -410px;
+    margin-right: -430px;
+}
+
+.game5{
+    background-image: url("pong.png");
+    width: 400px;
+    height: 400px;
+    background-size:400px 400px;
+    border: 5px solid #B5E550;
+    float: right;
+    margin-top: -410px;
+    margin-right: -860px;
+}
+
+.game1.game2, .game3,.game4,.game5,.game6:hover{
+    cursor: pointer;
+}
+
+#footer{
+    margin-top: 0px;
+    width: 100%;
+    height: 450px;
+    background-color: white;
+}
+
+.a{
+    color: darkgreen;
+    float: right;
+    margin-right: 40%;
+    margin-left: 100px;
+    font-size: 62px;
+    font-family: brush script mt;
+}
+
+.b{
+    color: darkgreen;
+    float: right;
+    margin-right: 100px;
+    margin-left: 100px;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.fb{
+    float: right;
+    width: 75px;
+    height: 75px;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+
+.youtube{
+    float: right;
+    width: 75px;
+    height: 75px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.insta{
+    float: right;
+    width: 75px;
+    height: 75px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.twitter{
+    float: right;
+    width: 75px;
+    height: 75px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.github{
+    float: right;
+    width: 75px;
+    height: 75px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.snapchat{
+    float: right;
+    width: 75px;
+    height: 75px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.feedback{
+    color: azure;
+    font-size: 36px;
+    margin-left: 200px;
+    text-decoration: underline;
+}
+
+.end{
+    width: 100%;
+    height: 50px;
+    background-color: green;
+    color: azure;
+    font-size: 36px;
+}
+
+#a:hover{
+    cursor: pointer;
+}
+
+.submit{
+    color: darkgreen;
+    background-color: white;
+    border: 2px solid darkgreen;
+    width: 300px;
+    height: 200px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.submit a{
+    color: darkgreen;
+    font-size: 36px;
+}
+
+.submit:hover{
+    cursor: pointer;
+    outline: none;
+    color: azure;
+    background-color: #B5E550;
+    font-size: 36px;
+}
+
+.top{
+    color: white;
+    background-color: darkgreen;
+    width: 30px;
+    height: 30px;
+    margin-top: -20px;
+    border: 2px solid darkgoldenrod;
+    border-radius: 50%;
+    outline: none;
+}
+
+.top:hover{
+    cursor: pointer;
+    outline: none;
+}
+
+.comment{
+    width: 550px;
+    height: 100px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    float: right;  
+    background-color: green;
+    color: white;
+    font-size: 50px;
+    border: 5px solid darkgreen;
+    border-radius: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    outline: none;
+}
+
+.concern{
+    width: 550px;
+    height: 100px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    float: left; 
+    background-color: green;
+    color: white;
+    font-size: 50px;
+    border: 5px solid darkgreen;
+    border-radius: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    outline: none;
+}
+
+#buttons:hover{
+    cursor: pointer;
+    color: darkgreen;
+    background-color: white;
+}
+
+
